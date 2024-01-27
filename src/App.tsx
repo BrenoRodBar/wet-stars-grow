@@ -40,6 +40,10 @@ function App() {
               >
                 <Routes>
                   <Route index element={<WelcomePage />} />
+                  <Route index element={<Home />} />
+                  <Route index element={<WelcomePage />} />
+                  <Route index element={<WelcomePage />} />
+                  <Route index element={<WelcomePage />} />
                 </Routes>
                 <RefineKbar />
                 <UnsavedChangesNotifier />
